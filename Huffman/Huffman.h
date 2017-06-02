@@ -25,6 +25,7 @@ struct TreeNode
 		this->right = right;
 		this->code = "";
 	}
+
 };
 
 struct OrderByFrequence
