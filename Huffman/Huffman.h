@@ -25,20 +25,6 @@ struct TreeNode
 		this->right = right;
 		this->code = "";
 	}
-	
-	/*
-	 *
-	 *		POR QUE NÃO FUNCIONA? CARALHO, PORRA, INFERNO, CACETE, VAI TOMAR NO CU, FILHA DA PUTA, CUZÃO DA PORRA, VAI SE FODER
-	 *		
-	bool operator<(const TreeNode* tree_node) const
-    {
-        return frequency > tree_node->frequency;
-    }
-	bool operator>(const TreeNode* tree_node) const
-	{
-		return frequency < tree_node->frequency;
-	}
-	*/
 };
 
 struct OrderByFrequence

@@ -12,8 +12,11 @@ void generate_codes(TreeNode* node, string bit)
 {
 	if (node != nullptr)
 	{
-		node->code = bit;
-		cout << node->code << " " << node->ascii << endl;
+		if(node->ascii != '0')
+		{
+			node->code = bit;
+			cout << node->code << " " << node->ascii << endl;
+		}
 		generate_codes(node->left, bit + "0");
 		generate_codes(node->right, bit + "1");
 	}
